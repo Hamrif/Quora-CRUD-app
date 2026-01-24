@@ -1,0 +1,10 @@
+ .post{
+    background-color:blanchedalmond;
+    border:2px solid burlywood;
+    margin:5px;
+    border-radius:10px;
+    padding:10px;
+ }
+ #userName{
+    font-weight: 700;
+ }
