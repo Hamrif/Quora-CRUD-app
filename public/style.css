@@ -1,3 +1,4 @@
+
  .post{
     background-color:blanchedalmond;
     border:2px solid burlywood;
@@ -8,3 +9,6 @@
  #userName{
     font-weight: 700;
  }
+#deletebtn{
+   display: inline;
+}
