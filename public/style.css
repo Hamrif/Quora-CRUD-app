@@ -12,3 +12,32 @@
 #deletebtn{
    display: inline;
 }
+#nameinput{
+   margin-left:20px;width:170px;
+};
+#contentinput{
+   width:170px;
+   height:200px;
+   padding-top:150px;
+  
+}
+#createbtn{
+   margin-left:10px;
+}
+
+.btn{
+   width:100px;
+   height:30px;
+   background-color: black;
+   color:beige;
+   border:2px solid transparent;
+   border-radius: 5px;
+   margin: 5px;
+
+}
+.btn:hover{
+   border:2px solid beige;
+}
+#heading{
+   margin-left:10px;
+}

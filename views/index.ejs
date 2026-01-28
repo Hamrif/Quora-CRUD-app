@@ -7,21 +7,21 @@
     <title>Quora</title>
 </head>
 <body>
-    <h1>Quora</h1>
+    <h1 id="heading">Quora</h1>
     <% for(let post of posts){ %>
         <div class="post">
            
             <p id="userName">@<%=post.name %></p>
             <p><%=post.content %></p>
-            <a href="http://localhost:3000/posts/<%=post.id%>"> <button> View details</button></a>
-            <a href="http://localhost:3000/posts/<%=post.id %>/edit"><button> Edit </button></a>
+            <a href="http://localhost:3000/posts/<%=post.id%>"> <button class="btn"> View details</button></a>
+            <a href="http://localhost:3000/posts/<%=post.id %>/edit"><button class="btn"> Edit </button></a>
             <form  id="deletebtn" method="post" action="/posts/<%= post.id %>?_method=delete">
-            <button>Delete</button>
+            <button class="btn">Delete</button>
             </form>
         </div>
         <% } %>
 
         <br>
-        <a href="http://localhost:3000/posts/new"> <button> Create new post</button> </a>
+        <a href="http://localhost:3000/posts/new"> <button id="createbtn" class="btn"> Create post</button> </a>
 </body>
 </html>

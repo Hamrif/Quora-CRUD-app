@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
     <title>Create post</title>
 </head>
 <body>
-      <form method="POST" action="/posts">
-        <input placeholder="username" name="name">
+  <div class="post">
+    <form method="POST" action="/posts" class="createPost">
+       <h3> Name:<input placeholder="username" name="name" id="nameinput"></h3> 
         <br>
-        <textarea placeholder="content" name="content"> </textarea>
+        <h3>Content: <input placeholder="content" name="content" id="contentinput"> </input></h3>
         <br>
-        <button>Submit</button>
-      </form>  
+        <button class="btn"> Submit</button>
+      </form> 
+     </div>
+      
 </body>
 </html>
